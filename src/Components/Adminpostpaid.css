@@ -1,0 +1,51 @@
+/* Container styling */
+.admin-postpaid-container {
+  padding: 40px; /* Light grey background for better contrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container */
+}
+
+/* Title styling */
+.admin-postpaid-container h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+}
+
+/* List styling */
+.admin-postpaid-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card styling */
+.admin-postpaid-card {
+  background-color: #e8f5e9; /* Light green background color */
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.admin-postpaid-card h3 {
+  margin: 0 0 15px;
+  font-size: 24px;
+  color: #388e3c; /* Darker green color for card titles */
+}
+
+.admin-postpaid-card p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.admin-postpaid-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}

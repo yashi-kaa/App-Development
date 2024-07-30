@@ -1,0 +1,51 @@
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: rgba(141, 150, 235, 0.822); /* Light blue background */
+  min-height: 100vh;
+}
+
+.contact-image {
+  flex: 1 1 40%;
+  max-width: 40%;
+  padding: 20px;
+}
+
+.image-style {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.contact-form {
+  flex: 1 1 50%;
+  max-width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Smaller gap for material design consistency */
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+@media (max-width: 768px) {
+  .contact-image,
+  .contact-form {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+.input-field {
+  margin-bottom: 16px; /* Reduced spacing between fields */
+}
+
+.submit-button {
+  width: 120px; /* Smaller button */
+  align-self: center;
+}

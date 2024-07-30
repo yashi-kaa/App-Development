@@ -1,0 +1,58 @@
+.background-container {
+  background-color: #f5f5f5; /* Light grey background for a clean look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(141, 150, 235, 0.822); /* add your background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.add-plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* Adjusted max-width for a smaller form */
+}
+
+.add-plan-card {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for a professional look */
+}
+
+.add-plan-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Dark grey text for the title */
+}
+
+.add-plan-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-plan-form .MuiTextField-root,
+.add-plan-form .MuiFormControl-root {
+  background-color: #f9f9f9; /* Slightly off-white background for input fields */
+  border-radius: 6px;
+}
+
+.add-plan-button {
+  margin-top: 20px;
+  align-self: flex-end; /* Align the button to the bottom right */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e60000; /* Airtel red */
+  color: #ffffff; /* White text */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-plan-button:hover {
+  background-color: #cc0000; /* Slightly darker red on hover */
+}

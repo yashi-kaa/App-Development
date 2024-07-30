@@ -1,0 +1,113 @@
+/* PlanPage.css */
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priya {
+  overflow: scroll;
+  margin-top: 50px;
+  color: #424242;
+  padding: 0 16px; /* Added padding for better spacing */
+}
+
+.card {
+  margin-bottom: 10px; /* Spacing between cards */
+  background-color: #ffffff; /* White background for better contrast */
+  color: #000000; /* Black color for text */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.12); /* Added shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  position: relative; /* To position badges/icons */
+  width: 1000px; /* Fixed width for the card */
+  max-height: 175px; /* Slim height for the card */
+  overflow-y: auto; /* Vertical scroll if content exceeds height */
+  padding: 10px; /* Padding inside the card */
+}
+
+.card:hover {
+  transform: translateY(-6px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.cardContent {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  flex-direction: column; /* Stack content vertically */
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden; /* Ensure no overflow within the left side */
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.planType {
+  font-weight: 600; /* Bold text for plan type */
+  font-size: 1.1rem; /* Font size for plan type */
+  color: #305bdd; /* Red color for emphasis */
+  margin-bottom: 8px; /* Spacing below the plan type */
+}
+
+.price {
+  font-size: 1.3rem; /* Font size for price */
+  color: #000000; /* Black color for price */
+  margin-bottom: 8px; /* Spacing below the price */
+}
+
+.speed,
+.offer {
+  font-size: 1rem; /* Font size for other details */
+  color: #333333; /* Dark gray color for readability */
+  margin-bottom: 6px; /* Spacing between details */
+}
+
+.data,
+.validity {
+  font-size: 0.9rem; /* Slightly smaller font size for other details */
+  color: #333333; /* Dark gray color for readability */
+  margin-bottom: 6px; /* Spacing between details */
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #19086c; /* Red badge for attention */
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem; /* Font size for badge text */
+  font-weight: 500; /* Bold text for badge */
+}
+
+.stars {
+  display: flex;
+  justify-content: center; /* Center stars */
+  margin-top: 10px; /* Spacing above stars */
+  margin-bottom: 8px; 
+}
+
+.star {
+  color: #f9e10b; /* Gold color for stars */
+  margin: 0 2px; /* Spacing between stars */
+}
+
+.rechargeForm {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.card:hover {
+  cursor: pointer; /* Pointer cursor on hover to indicate interactivity */
+}
