@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  width: auto;
+}
+
+.welcome-container {
+  display: flex;
+  background-image: url("../assets/mobile.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-box {
+  background-color: rgba(238, 204, 69, 0.8);  
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+}

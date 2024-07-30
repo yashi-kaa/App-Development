@@ -1,0 +1,43 @@
+/* Ensure the entire viewport is used */
+.fullHeightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ /* Optional: Add a background color for better contrast */
+}
+
+.rechargeForm {
+  max-width: 500px;
+  width: 100%; /* Ensure the form uses full width within the max-width */
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.rechargeForm .MuiTypography-root {
+  margin-bottom: 16px;
+}
+
+.rechargeForm .MuiTextField-root {
+  margin-bottom: 16px;
+  width: 100%; /* Ensure the text fields use full width */
+}
+
+.rechargeForm .MuiButton-root {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 100%; /* Ensure the button uses full width */
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.rechargeForm .planDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}

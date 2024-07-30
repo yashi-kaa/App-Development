@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": "4569",
+      "phone": "9876568579",
+      "password": "customer"
+    },
+    {
+      "id": "30b8",
+      "phone": "9566439895",
+      "email": "abc123@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "a07c",
+      "phone": "9566439895",
+      "email": "abc123@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "26b8",
+      "phone": "9566439895",
+      "email": "abc123@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "6a0c",
+      "phone": "9688257267",
+      "email": "22eucss170@skcet.ac.in",
+      "password": "1234567",
+      "role": "admin"
+    },
+    {
+      "id": "ad6c",
+      "phone": "9688257267",
+      "email": "22eucss170@skcet.ac.in",
+      "password": "12345678",
+      "role": "user"
+    },
+    {
+      "id": "53d9",
+      "phone": "9688257267",
+      "email": "abc1234@gmail.com",
+      "password": "12345",
+      "role": "admin"
+    },
+    {
+      "id": "e7f2",
+      "phone": "9876568579",
+      "email": "22eucss156@skcet.ac.in",
+      "password": "saru@2004",
+      "role": "admin"
+    },
+    {
+      "id": "ac13",
+      "phone": "8148370740",
+      "email": "727722eucs205@skcet.ac.in",
+      "password": "Yashika",
+      "role": "user"
+    },
+    {
+      "id": "2b9a",
+      "phone": "0000000000",
+      "email": "727722eucs165@skacet.ac.in",
+      "password": "1234567",
+      "role": "user"
+    }
+  ]
+}
